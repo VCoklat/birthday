@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <Button
+        android:text="Quote for you"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/quote" />
+
+    <Button
+        android:text="Special Video for you"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="60dp"
+        android:id="@+id/youtube"
+        android:layout_above="@+id/quote"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="Greetings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="79dp"
+        android:id="@+id/video"
+        android:layout_below="@+id/quote"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="Ini ada 3 suprise kecil, silahkan di cek :)"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:id="@+id/textView"
+        android:fontFamily="cursive"
+        tools:textColor="@android:color/black"
+        android:textSize="36sp"
+        android:gravity="center"
+        android:textStyle="bold" />
+</RelativeLayout>
